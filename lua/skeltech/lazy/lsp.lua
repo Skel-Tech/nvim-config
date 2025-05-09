@@ -46,7 +46,6 @@ return {
                 "emmet_language_server",
                 "ts_ls",
                 "html",
-                "eslint",
                 "angularls",
                 "css_variables",
                 "lua_ls",
