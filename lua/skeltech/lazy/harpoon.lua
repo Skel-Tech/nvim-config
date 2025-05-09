@@ -7,8 +7,6 @@ return {
         "nvim-lua/plenary.nvim"
     },
 
-    tag = "harpoon2",
-
     config = function()
         local harpoon = require("harpoon")
 
