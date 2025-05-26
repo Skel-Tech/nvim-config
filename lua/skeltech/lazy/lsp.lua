@@ -49,6 +49,8 @@ return {
                 "angularls",
                 "css_variables",
                 "lua_ls",
+                "golangci_lint_langserver",
+                "goimports_reviser"
             },
             handlers = {
                 function(server_name) -- default handler (optional)
