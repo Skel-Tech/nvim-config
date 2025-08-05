@@ -79,5 +79,13 @@ return {
 
     -- setup must be called before loading
     vim.cmd.colorscheme "catppuccin"
+
+    function LineNumberColors()
+      vim.api.nvim_set_hl(0, 'LineNrAbove', { fg='#00b3ff', bold=false })
+      vim.api.nvim_set_hl(0, 'LineNr', { fg='#fbff00', bold=true })
+      vim.api.nvim_set_hl(0, 'LineNrBelow', { fg='#ff0000', bold=false })
+    end   
+
+    LineNumberColors()
   end,
 }
