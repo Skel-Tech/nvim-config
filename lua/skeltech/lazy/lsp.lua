@@ -50,7 +50,6 @@ return {
         "cssls",
         "docker_compose_language_service",
         "dockerls",
-        "eslint",
         "golangci_lint_ls",
         "html",
         "jsonls",
